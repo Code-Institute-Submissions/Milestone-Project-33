@@ -4,35 +4,187 @@ body {
   font-family: Oswald;
 }
 
+ul {
+  list-style-type: none;
+}
+
 p {
   font-family: "Montserrat";
 }
 
-nav {
-  font-size: 28px;
-  background-color: #f7f7f7;
-  padding: 30px;
+/* Buttons */
+
+.btn--nav {
+    font-weight: bold;
+    border-radius: 50px;
+    width: 220px;
+    padding: 13px;
+    font-size: 23px
 }
 
-nav ul {
-  margin-right: 2%;
+.btn--cta {
+    font-weight: bold;
+    border-radius: 50px;
+    width: 300px;
+    padding: 13px;
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: Oswald;
 }
 
-nav ul li {
-  margin-right: 2%;
+.btn--red {
+    background-color: rgb(255, 82, 82);
+    border-color: rgb(255, 82, 82);
+}
+
+.btn--blue {
+    background-color: rgb(70, 132, 190);
+    border-color: rgb(70, 132, 190);
+}
+
+.a-color {
+  color: black;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: rgb(168, 55, 55);
+    border-color: rgb(168, 55, 55);
+    color: white;
+}
+
+
+.btn--blue:hover {
+  background-color: rgb(47, 97, 144);
+  border-color: rgb(47, 97, 144);
+  color: white;
+}
+
+/* Block Dividers*/
+
+.block-divider {
+  height: 5px;
+  width: 75px;
+  border: 0;
+  background-color: cyan;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Containers */
+
+.callout-container {
+  height: 100vh;
+  background: url("https://i.imgur.com/AiH5VB6.jpg") no-repeat bottom center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about {
+
+}
+
+.quotes {
+
+}
+
+.gallery {
+
+}
+
+.image-slider {
+
+}
+
+.media-links {
+
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron-header {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 54px;
+}
+
+.jumbotron .lead {
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* Navbar */
+
+
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0; 
+  z-index: 1;
+}
+
+.navbar .navbar-toggler {
+  border: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+nav div ul {
   text-transform: uppercase;
+  font-size: 28px;
 }
 
 .text-black {
   color: black;
 }
 
-nav ul h1 {
-  background-repeat: no-repeat;
-  background-size: 200px;
-  position: absolute;
-  left: 3%;
-  top: 2%;
-  width: 200px;
-  height: 80px;
+.brand {
+  max-width: 14rem;
+  max-height: 14rem;
+}
+
+/* About Us */
+
+.about-header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-text {
+  font-size: 19px;
+  font-weight: 600;
 }
