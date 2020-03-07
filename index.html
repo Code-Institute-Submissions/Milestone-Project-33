@@ -29,6 +29,9 @@
           <li class="nav-item mr-4">
             <a class="nav-link" href="#">About</a>
           </li>
+          <div class="d-none d-md-block mr-3">
+            <button class="nav-text my-auto btn btn--nav btn--red" data-toggle="modal" data-target="#contactUsModal">Contact Us</button>
+          </div>
         </ul>
       </div>
     </nav>
@@ -75,6 +78,13 @@
       </div>
     </div>
       <!--/about-->
+      <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 parallaximg-home-br">
+
+      </div>
+    </div>
+  </div>
       <!-- Quotes -->
     <div class="container-wrapper--darkgreen">
       <div class="container quotes content-container">
@@ -168,7 +178,7 @@
       </a>
       </div>
       <div class="col-12 text-center">
-        <button type="button" class="btn btn btn--gallery btn--red text-uppercase">Gallery</button>  
+        <a href="/gallery.html" type="button" class="btn btn btn--gallery btn--red text-uppercase">Gallery</a>  
       </div>
     </div>
   </div>
@@ -178,8 +188,8 @@
 <!--/End image slider-->
 <!--Social Media Links-->
 <div class="content-container-social container-wrapper--grayish">
-    <div class="container media-links">
-        <div class="row text-center">
+  <div class="container media-links">
+    <div class="row text-center">
           <div class="col-3 hvr-sweep-to-top-fb">
               <a class="btn-lg btn-fb btn-color" type="button" role="button"><i class="fab fa-facebook-f font-size-social"></i></a>
           </div>
@@ -192,10 +202,10 @@
           <div class="col-3 hvr-sweep-to-top-ig">
               <a class="btn-lg btn-ins btn-color" type="button" role="button"><i class="fab fa-instagram font-size-social"></i></a>
           </div>
-        </div>
+      </div>
     </div>
   </div>
-  
+</div>
 <!--/Social Media Links-->
 <div class="footer-container container-wrapper--darkgreen">
   <footer class="container-fluid">
@@ -232,14 +242,16 @@
       <div class="d-none d-md-inline-block col-md-4 text-right">
         <div class="contact-footer">
           <h5 class="text-uppercase footer-headings">Contact</h5>
-            <ul class="list-unstyled mt-2">
-              <li>
-                <a href="#!" class="a-color-white"><i class="fas fa-envelope"></i> Manojlovic911@hotmail.com</a>
-              </li>
-              <li>
-                <a href="#!" class="a-color-white mt-2"><i class="fas fa-phone-square-alt"></i> +46-555-3355</a>
-              </li>
-            </ul>
+            <form>
+  <div class="form-group form-group-footer">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group form-groop-footer">
+    <label for="exampleFormControlTextarea1">Email text</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
         </div>
       </div>
       </div>
