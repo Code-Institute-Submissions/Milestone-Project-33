@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/bf91e26bd5.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -17,20 +18,17 @@
       </a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav font-weight-bold ml-auto">
           <li class="nav-item active mr-4">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item mr-4">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item mr-4">
             <a class="nav-link" href="#">About</a>
           </li>
-          <div class="d-none d-md-block mr-3">
-            <button class="nav-text my-auto btn btn--nav btn--red" data-toggle="modal" data-target="#contactUsModal">Contact Us</button>
-          </div>
         </ul>
       </div>
     </nav>
@@ -46,7 +44,7 @@
               <hr class="block-divider">
               <p class="lead">Feel free to contact us and book your time!
               <span class="d-inline d-sm-none"><br></span></p>
-              <p><button class="btn btn-lg btn--red btn--cta font-weight-bold" data-toggle="modal" data-target="#contactUsModal">Contact Us!</button></p>
+              <p class="btn-jmb"><button class="btn btn-lg btn--red btn--cta font-weight-bold" data-toggle="modal" data-target="#contactUsModal">Contact Us!</button></p>
             </section>
           </div>
         </div>
@@ -66,7 +64,7 @@
                 <p class="about-text">Throughout my 15 years of work as a professional photographer my team and I have created an environment that can answer all of our customers' demands. Today we can proudly say that we are one of the leading photography studios in Stockholm. Providing the utmost best quality service on the market. We provide our customers with a personal clothing stylist ,a professional hairdresser and make-up artist! All that to ensure that you get the most out of your purchases.</p>
                 <div class="container">
                   <div class="row justify-content-center">
-                    <a href="#" class="col-12 text-center text-uppercase"><p class="a-color font-weight-bold">Read More</p><span class="arrow arrow-bottom mx-auto"></span></a>
+                    <a href="#" class="col-12 text-center text-uppercase"><p class="a-color font-weight-bold mt-3 mt-md-0">Read More</p><span class="arrow arrow-bottom mx-auto mb-4 mb-md-0"></a>
                   </div>
                 </div>
                 </div>
@@ -140,12 +138,24 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="https://i.imgur.com/GlLLTqa.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block img-text-wrapper">
+            <h5 class="text-black font-weight-bold">Event Photography</h5>
+            <p class="text-black font-weight-bold">Covers weddings, birthdays, ceremonies, etc.</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="https://i.imgur.com/6IAH9qc.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block img-text-wrapper">
+            <h5 class="text-black font-weight-bold">Portrait</h5>
+            <p class="text-black font-weight-bold">Covers portraits, headshots for CV, Linkin, etc.</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="https://i.imgur.com/ZKMmqMS.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block img-text-wrapper">
+            <h5 class="text-black font-weight-bold">Busniess Photography</h5>
+            <p class="text-black font-weight-bold">Covers product, service and advertising photography.</p>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -167,24 +177,25 @@
 </div>
 <!--/End image slider-->
 <!--Social Media Links-->
-<div class="content-container container-wrapper--grayish">
-  <div class="container media-links">
-    <div class="row text-center">
-          <div class="col-3">
+<div class="content-container-social container-wrapper--grayish">
+    <div class="container media-links">
+        <div class="row text-center">
+          <div class="col-3 hvr-sweep-to-top-fb">
               <a class="btn-lg btn-fb btn-color" type="button" role="button"><i class="fab fa-facebook-f font-size-social"></i></a>
           </div>
-          <div class="col-3">
+          <div class="col-3 hvr-sweep-to-top-tw">
               <a class="btn-lg btn-tw btn-color" type="button" role="button"><i class="fab fa-twitter font-size-social"></i></a>
           </div>
-          <div class="col-3">
+          <div class="col-3 hvr-sweep-to-top-yt">
               <a class="btn-lg btn-yt btn-color" type="button" role="button"><i class="fab fa-youtube font-size-social"></i></a>
           </div>
-          <div class="col-3">
+          <div class="col-3 hvr-sweep-to-top-ig">
               <a class="btn-lg btn-ins btn-color" type="button" role="button"><i class="fab fa-instagram font-size-social"></i></a>
           </div>
+        </div>
     </div>
   </div>
-</div>
+  
 <!--/Social Media Links-->
 <div class="footer-container container-wrapper--darkgreen">
   <footer class="container-fluid">
