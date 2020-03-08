@@ -356,8 +356,8 @@ overflow: hidden;
 
 /* Footer */
 
-.footer-headings {
-  font-size: 24px;
+.footer-heading {
+  font-size: 2rem;
 }
 
 .contact-footer {
@@ -371,7 +371,7 @@ overflow: hidden;
 
 .a-color-white {
   color: white;
-  font-size: 19px;
+  font-size: 1.5rem;
 }
 
 .a-color-white:hover {
