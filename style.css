@@ -153,6 +153,20 @@ p {
   position: relative;
 }
 
+.parallaximg-home-br {
+  height: 25vh;
+  background: url("https://i.imgur.com/ViVRtrb.jpg") no-repeat bottom center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 .gallery-start-bhp-container {
   height: 100vh;
   background: url("https://i.imgur.com/TqyyAva.jpg") no-repeat bottom left fixed; 
