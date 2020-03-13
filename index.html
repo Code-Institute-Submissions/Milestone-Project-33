@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
-    <script src="https://kit.fontawesome.com/bf91e26bd5.js" crossorigin="anonymous"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <!-- Navigation bar-->
-  <div class="container-fluid navalert-container">
-    <nav class="navbar navbar-dark navbar-expand-sm">
-      <a href="#"  class="navbar-brand ml-3">
-        <img class="d-inline-block brand mt-1" src="https://i.imgur.com/Eh6zaLp.png">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0="
+	 crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/bf91e26bd5.js" crossorigin="anonymous">
+
+	</script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.js">
+
+	</script>
+	<script type="text/javascript" src="javascript.js">
+
+	</script>
+</head>
+
+<body>
+	<!-- Navigation bar-->
+	<div class="container-fluid navalert-container">
+		<nav class="navbar navbar-dark navbar-expand-sm">
+			<a href="#" class="navbar-brand ml-3">
+				<img class="brand mt-1 w-one" src="https://i.imgur.com/Eh6zaLp.png">
+        <img class="brand-black mt-1 d-none b-one" src="https://i.imgur.com/PncyyaE.png">
       </a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span></button>
@@ -30,7 +43,7 @@
             <a class="nav-link" href="#">About</a>
           </li>
           <div class="d-none d-md-block mr-3">
-            <button class="nav-text my-auto btn btn--nav btn--red" data-toggle="modal" data-target="#contactUsModal">Contact Us</button>
+            <button class="nav-text my-auto btn btn--nav btn--red text-uppercase font-weight-bold" data-toggle="modal" data-target="#Contact">Contact</button>
           </div>
         </ul>
       </div>
@@ -38,23 +51,134 @@
   </div>
   <!--/navigation bar-->
     <!-- Callout -->
-    <div class="container-fluid callout-container">
-      <div class="opaque-overlay">&nbsp;</div>
+  <div class="callout-container">
+    <div class="opaque-overlay">&nbsp;</div>
+    <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <section class="callout jumbotron text-center">
-              <h1 class="jumbotron-header">Everything that you need in one place.</h1>
+              <h1 class="jumbotron-header">Photography that you need.</h1>
               <hr class="block-divider">
-              <p class="lead">Feel free to contact us and book your time!
-              <span class="d-inline d-sm-none"><br></span></p>
-              <p class="btn-jmb"><button class="btn btn-lg btn--red btn--cta font-weight-bold" data-toggle="modal" data-target="#contactUsModal">Contact Us!</button></p>
+             <!--<p class="lead">Feel free to contact us and book your time!
+              <span class="d-inline d-sm-none"><br></span></p>-->
+              <p class="btn-jmb"><button class="btn btn-lg btn--red btn--cta font-weight-bold text-uppercase" data-toggle="modal" data-target="#contactUsModal">Gallery</button></p>
             </section>
           </div>
         </div>
     </div>
+  </div>
     <!--/.callout -->
-    <!--About-->
-    <div class="container-wrapper--grayish">
+    <!--Offers-->
+    <div class="container-wrapper--offers">
+      <div class="container-fluid">
+       <div class="content-container">
+        <div class="row">
+              <div class="col-12">
+                  <h2 class="text-uppercase font-weight-bold text-center offers-header"><i class="fab fa-buffer"></i> What we offer</h2>
+                  <hr class="block-divider block-divider--short">
+              </div>
+        </div>
+        <div class="row mt-5">          
+                <div class="col-12 col-md-4 text-center mb-4">
+                  <div class="offer-wrapper">
+                    <h3 class="mb-4 text-uppercase mt-4">Portrait Photography</h3>
+                    <img src="https://i.imgur.com/6IAH9qc.jpg" class="offer img-responsive">
+                    <div class="col-12 text-center mt-5">
+                      <p>Portrait photography is the type of photography where photographer focuses on capturing the client's facial features and with it his/her attitude, identity and personality. Depending on...</p>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button type="button" class="btn btn--red btn-offer mt-4 mb-4">Learn more</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 text-center mb-4">
+                  <div class="offer-wrapper">
+                    <h3 class="mb-4 text-uppercase mt-4">Event Photography</h3>
+                    <img src="https://i.imgur.com/GlLLTqa.jpg" class="offer img-responsive">
+                    <div class="col-12 text-center mt-5">
+                      <p>Event photography is photography of happenings and guests at events such as weddings, birthday parties, ceremonies etc. Capturing moments and people at events with camera allows for those...</p>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button type="button" class="btn btn--red btn-offer mt-4 mb-4">Learn more</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 text-center mb-4">
+                  <div class="offer-wrapper">
+                    <h3 class="mb-4 text-uppercase mt-4">Busniess Photography</h3>
+                    <img src="https://i.imgur.com/ZKMmqMS.jpg" class="offer img-responsive">
+                    <div class="col-12 text-center mt-5">
+                      <p>Business photography focuses on the best ways in which you can showcase your product or service to the vast auditorium of people. Photographer will ensure the photos are of utmost quality...</p>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button type="button" class="btn btn--red btn-offer mt-4 mb-4">Learn more</button>
+                    </div>
+                  </div>
+                </div>
+        </div>
+       </div>
+      </div>
+    </div>
+      <!--/offers-->
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 parallaximg-home-br">
+          <!--<div class="opaque-overlay">&nbsp;</div>-->
+        </div>
+    </div>
+  </div>
+      <!-- Quotes -->
+    <div class="container-wrapper--gray">
+      <div class="container-fluid quotes content-container">
+              <div class="row quote-header mb-5">
+                <div class="col-12 text-center">
+                  <h2 class="text-uppercase"><i class="fas fa-quote-right"></i> Quotes</h2>
+                </div>
+                <hr class="block-divider-white">
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-4 text-center mb-5 mb-md-0">
+                  <div class="quote-wraper">
+                    <blockquote class="blockquote">
+                          <img class="rounded-circle quote-img" src="https://i.imgur.com/BlJYIEU.jpg" height="200" width="200">
+                          <div class="col-12 mt-4">
+                            <i class="fas fa-quote-right text-black quote-icon mb-4"></i>
+                            <p class="quote-text text-black">Awesome studio! I had my CV photo taken by Nemanja Manojlovic. They have guided me thru the whole proces, I felt relaxed and happy with the outcome.</p>
+                            <p class="mt-3 text-black"><b>-Martin Backman</b></p>
+                          </div>
+                    </blockquote>
+                </div>
+                </div>
+                <div class="col-12 col-md-4 text-center mb-5 mb-md-0">
+                  <div class="quote-wraper">
+                    <blockquote class="blockquote">
+                          <img class="rounded-circle quote-img" src="https://i.imgur.com/2oeffyD.jpg" height="200" width="200">
+                          <div class="col-12 mt-4">
+                            <i class="fas fa-quote-right quote-icon mb-4 text-black"></i>
+                            <p class="quote-text text-black">Had my Linkedin portrait taken at this studio. It turned out amaizing!</p>
+                            <p class="mt-3 text-black"><b>-Julia Mattsson</b></p>
+                          </div>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 text-center mb-5 mb-md-0">
+                  <div class="quote-wraper">
+                    <blockquote class="blockquote">
+                      <img class="rounded-circle quote-img" src="https://i.imgur.com/OszkMpG.jpg" height="200" width="200">
+                      <div class="col-12 mt-4">
+                        <i class="fas fa-quote-right quote-icon mb-4 text-black"></i>
+                        <p class="quote-text text-black">Great service quality, my friends are amazed by my photos!</p>
+                        <p class="mt-3 text-black"><b>Nia Roberts</b></p>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+<!-- /.quotes -->
+<!-- Short About Section-->
+  <div class="container-wrapper--grayish">
       <div class="container about content-container">
         <div class="row about-header">
               <div class="col-12">
@@ -77,219 +201,95 @@
         </div>
       </div>
     </div>
-      <!--/about-->
-      <div class="container-fluid">
+<!--/short about section-->
+<!-- Contact Section-->
+  <div class="contact-form-wrapper">
+      <form class="container-fluid contact-form-container">
+          <div class="form-row">
+            <div class="col-12 form-h3-hr-container">
+              <h3 class="col-12 text-center contact-form-h3"><i class="fas fa-envelope-open-text"></i> <b>Contact Us Today</b></h3>
+              <hr class="block-divider-white">
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault01" class="contact-form-label">First name</label>
+              <input type="text" class="form-control contact-form-input" id="validationDefault01" placeholder="First name" required>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault02" class="contact-form-label">Last name</label>
+              <input type="text" class="form-control contact-form-input" id="validationDefault02" placeholder="Last name" required>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault03" class="contact-form-label">Email address</label>
+              <input type="email" class="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault04" class="contact-form-label">Message</label>
+              <textarea class="form-control contact-form-text" id="validationDefault04" rows="6" required></textarea>
+            </div>
+           </div>
+          <div class="col-12 text-center">
+            <button class="btn btn--red contact-form-btn" type="submit">Submit form</button>
+          </div>
+      </form>
+  </div>
+<!--/contact section-->
+<!--Footer-->
+<footer>
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-12 parallaximg-home-br">
+      <div class="d-none d-md-block col-md-6 map-container">
+        <h5 class="map-h5 text-center mb-3"><i class="fas fa-map-marked-alt"></i> Location</h5>
+        <div class="mapouter map-center"><div class="gmap_canvas"><iframe width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=stockholm&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">elegant themes lucid theme</a></div></div>
+        <p class="mt-3 text-center location-text">123 Strömgatan, Stockholm <br>Sweden</p>
+      </div>
+      <div class="col-12 col-md-6 footer-social-container d-flex align-content-center flex-wrap">
+        <div class="col-12 text-center">
+          <a class="social-link" href="#"><i class="fab fa-facebook-f font-size-social"></i></a>
+          <a class="social-link" href="#"><i class="fab fa-twitter font-size-social"></i></a>
+          <a class="social-link" href="#"><i class="fab fa-youtube font-size-social"></i></a>
+          <a class="social-link" href="#"><i class="fab fa-instagram font-size-social"></i></a>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <p><i class="far fa-envelope"></i> email: Manojlovic911@hotmail.com</p>
+        </div>
 
       </div>
     </div>
   </div>
-      <!-- Quotes -->
-    <div class="container-wrapper--darkgreen">
-      <div class="container quotes content-container">
-              <div class="row quote-header">
-                <div class="col-12 text-center">
-                  <h2 class="text-uppercase"><i class="fas fa-quote-right"></i> Quotes</h2>
-                </div>
-                <hr class="block-divider-white">
-              </div>
-              <div class="row quote1-row">
-                <div class="col-sm-12">
-                  <div class="media">
-                    <div class="d-none d-sm-block">
-                      <img class="rounded-circle mr-3" src="https://i.imgur.com/BlJYIEU.jpg" height="100" width="100">
-                    </div>
-                    <div class="media-body">
-                      <blockquote class="blockquote">
-                        <p class="quote-text">Awesome studio! I had my CV photo taken by Nemanja Manojlovic. They have guided me thru the whole proces, I felt relaxed and happy with the outcome.</p>
-                        <p><b>-Martin Backman</b></p>
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row quote2-row">
-                <div class="col-sm-12">
-                  <div class="media">
-                    <div class="media-body">
-                      <blockquote class="blockquote text-right">
-                        <p class="quote-text">Great service quality, my friends are amazed by my photos!</p>
-                        <p><b>Nia Roberts-</b></p>
-                      </blockquote>
-                    </div>
-                    <div class="d-none d-sm-block">
-                      <img class="rounded-circle ml-3" src="https://i.imgur.com/OszkMpG.jpg" height="100" width="100">
-                    </div>
-                  </div>
-                </div>
-              </div>
-      </div>
-    </div>
-        <!-- /.quotes -->
-        <!-- Start Image Slider-->
-  <div class="parallax">
-    <div class="opaque-overlay-slider">
-    <div class="container content-container">
-        <div class="row mywork-header">
-          <div class="col-sm-12 text-center text-uppercase">
-            <h2><i class="far fa-images"></i> My Work</h2>
-          </div>
-          <hr class="block-divider block-divider--short">
-        </div>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div id="carouselExampleIndicators" class="carousel slide img-slider-size" data-ride="carousel" data-interval="4000">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="https://i.imgur.com/GlLLTqa.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block img-text-wrapper">
-            <h5 class="text-black font-weight-bold">Event Photography</h5>
-            <p class="text-black font-weight-bold">Covers weddings, birthdays, ceremonies, etc.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://i.imgur.com/6IAH9qc.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block img-text-wrapper">
-            <h5 class="text-black font-weight-bold">Portrait</h5>
-            <p class="text-black font-weight-bold">Covers portraits, headshots for CV, Linkin, etc.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://i.imgur.com/ZKMmqMS.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block img-text-wrapper">
-            <h5 class="text-black font-weight-bold">Busniess Photography</h5>
-            <p class="text-black font-weight-bold">Covers product, service and advertising photography.</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      </div>
-      <div class="col-12 text-center">
-        <a href="gallery.html" type="button" class="btn btn btn--gallery btn--red text-uppercase">Gallery</a>  
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-</div>
-<!--/End image slider-->
-<!--Social Media Links-->
-<div class="content-container-social container-wrapper--grayish">
-  <div class="container media-links">
-    <div class="row text-center">
-          <div class="col-3 hvr-sweep-to-top-fb">
-              <a class="btn-lg btn-fb btn-color" type="button" role="button"><i class="fab fa-facebook-f font-size-social"></i></a>
-          </div>
-          <div class="col-3 hvr-sweep-to-top-tw">
-              <a class="btn-lg btn-tw btn-color" type="button" role="button"><i class="fab fa-twitter font-size-social"></i></a>
-          </div>
-          <div class="col-3 hvr-sweep-to-top-yt">
-              <a class="btn-lg btn-yt btn-color" type="button" role="button"><i class="fab fa-youtube font-size-social"></i></a>
-          </div>
-          <div class="col-3 hvr-sweep-to-top-ig">
-              <a class="btn-lg btn-ins btn-color" type="button" role="button"><i class="fab fa-instagram font-size-social"></i></a>
-          </div>
-      </div>
-    </div>
-  </div>
-  
-<!--/Social Media Links-->
-<!-- Footer -->
-<div class="footer-container container-wrapper--darkgreen">
-  <footer class="container-fluid">
-    <div class="row">
-      <div class="col-6 col-md-4">
-        <div class="col-12 d-flex justify-content-center d-flex justify-content-md-start">
-          <h5 class="text-uppercase footer-headings footer-heading">Studio</h5>
-        </div>
-        <div class="col-12 text-md-left d-flex justify-content-center d-flex justify-content-md-start">
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!" class="a-color-white footer-link"><i class="fas fa-address-card"></i> About</a>
-              </li>
-            </ul>
-        </div>
-      </div> 
-      <div class="col-6 col-md-4">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center justify-content-md-center">
-            <h5 class="text-uppercase footer-headings footer-heading">Support</h5>
-          </div>
-          <div class="col-12 d-flex text-md-left justify-content-center justify-content-md-center">
-            <ul class="list-unstyled mt-2">
-              <li>
-                <a href="#!" class="a-color-white footer-link"><i class="fas fa-info"></i> Supportpage</a>
-              </li>
-              <li class="mt-2">
-                <a href="#!" class="a-color-white footer-link"><i class="fas fa-question"></i> FAQ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="d-none d-md-inline-block col-md-4 text-right">
-        <div class="contact-footer">
-          <h5 class="text-uppercase footer-heading">Contact</h5>
-            <form>
-  <div class="form-group form-group-footer">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group form-groop-footer">
-    <label for="exampleFormControlTextarea1">Email text</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
-        </div>
-      </div>
-      </div>
-  </footer>
-</div>
-  <div class="container-wrapper--darkgreen2">
-    <div class="container-fluid">
-      <div class="row">
-        <p class="col-12 text-center footer-bottom-text">Copyright</p>
-      </div>
-    </div>
-</div>
-  <!-- Start Modal -->
-  <div class="modal" tabindex="-1" role="dialog" id="contactUsModal">
-  <div class="modal-dialog" role="document">
+</footer>
+<!--/footer-->
+  <!-- Modal -->
+<div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Contact Us!</h5>
+        <h5 class="modal-title text-uppercase" id="exampleModalLongTitle">Contact us Today!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         <form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Your Email Address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Email Text</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn--blue" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn--red">Send</button>
+          <div class="form-row">
+            <div class="col-12 mb-3">
+              <label for="validationDefault01">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault02">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault03">Email address</label>
+              <input type="email" class="form-control" id="validationDefault03" placeholder="name@example.com" required>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="validationDefault04">Message</label>
+              <textarea class="form-control" id="validationDefault04" rows="6" required></textarea>
+            </div>
+           </div>
+          <button class="btn btn--red" type="submit">Submit form</button>
+        </form>
       </div>
     </div>
   </div>
