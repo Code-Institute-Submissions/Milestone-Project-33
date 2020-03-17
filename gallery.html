@@ -23,25 +23,25 @@
 <body>
 	<!-- Navigation bar-->
 	<div class="container-fluid navalert-container">
-		<nav class="navbar navbar-dark navbar-expand-sm">
+		<nav class="navbar navbar-dark navbar-expand-lg">
 			<a href="#" class="navbar-brand ml-3">
 				<img class="brand mt-1 w-one" src="https://i.imgur.com/Eh6zaLp.png">
         <img class="brand-black mt-1 d-none b-one" src="https://i.imgur.com/PncyyaE.png">
       </a>
       <button class="navbar-toggler ml-auto navbar-button" type="button">
       <span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse bg-white-1 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end mobile-menu" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse bg-white-1 d-flex flex-column flex-xl-row justify-content-lg-end mobile-menu align-flex-text" id="navbarNavDropdown">
         <ul class="navbar-nav font-weight-bold navbar-ul-list-mobile">
           <li class="nav-item mr-0 mr-md-4">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item active mr-0 mr-md-4">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+          <li class="nav-item  active mr-0 mr-md-4">
+            <a class="nav-link" id="active-link-color" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item mr-0 mr-md-4">
             <a class="nav-link" href="#">About</a>
           </li>
-          <div class="d-none d-md-block mr-0 mr-md-3">
+          <div class="d-none d-lg-block mr-0 mr-xl-3">
             <button class="nav-text my-auto btn btn--nav btn--red text-uppercase font-weight-bold" data-toggle="modal" data-target="#Contact">Contact</button>
           </div>
         </ul>
@@ -122,7 +122,7 @@
     <div class="portrait-price-wrapper mt-4 mb-5">
       <div class="row">
         <div class="col-12  text-center">
-          <h3>Price of Portrait Photography</h3>
+          <h4>Price of Portrait Photography</h4>
         </div>
       </div>
       <div class="row text-center mt-4">
@@ -135,18 +135,18 @@
       </div>
       <div class="row text-center mt-4">
           <div class="col-6">
-            <p class="">Studio Photography</p>
+            <p class="font-size-prices">Studio Photography</p>
           </div>
           <div class="col-6">
-            <p class="">120 euro / photo</p>
+            <p class="font-size-prices">120 euro / photo</p>
           </div>
       </div>
       <div class="row text-center mt-4">
           <div class="col-6">
-            <p class="">Outdoor Photography</p>
+            <p class="font-size-prices">Outdoor Photography</p>
           </div>
           <div class="col-6">
-            <p class="">80 euro / photo</p>
+            <p class="font-size-prices">80 euro / photo</p>
           </div>
       </div>
   </div>
@@ -216,7 +216,7 @@
     <div class="portrait-price-wrapper mt-4 mb-5">
       <div class="row">
         <div class="col-12  text-center">
-          <h3>Price of Event Photography</h3>
+          <h4>Price of Event Photography</h4>
         </div>
       </div>
       <div class="row text-center mt-4">
@@ -229,10 +229,10 @@
       </div>
       <div class="row text-center mt-4">
           <div class="col-6">
-            <p class="">Event Photography</p>
+            <p class="font-size-prices">Event Photography</p>
           </div>
           <div class="col-6">
-            <p class="">200 euro / hour</p>
+            <p class="font-size-prices">200 euro / hour</p>
           </div>
       </div>
   </div>
@@ -249,7 +249,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mt-5 mb-5">
-        <a id="busniess-text" <h2 class="text-uppercase font-weight-bold mb-4">Busniess Photography</h2></a>
+        <a id="busniess-text"><h2 class="text-uppercase font-weight-bold mb-4">Busniess Photography</h2></a>
         <hr class="block-divider block-divider--short">
       </div>
     </div>
@@ -299,10 +299,10 @@
         <p class="portrait-text">Business photography focuses on the best ways in which you can showcase your product or service to the vast auditorium of people. Photographer will ensure the photos are of utmost quality by paying attention to details such as framing and scene in which he took them.</p>
       </div>
     </div>
-    <div class="portrait-price-wrapper mt-4">
+    <div class="portrait-price-wrapper mt-4 mb-5">
       <div class="row">
         <div class="col-12  text-center">
-          <h3>Price of Event Photography</h3>
+          <h4>Price of Busniess Photography</h4>
         </div>
       </div>
       <div class="row text-center mt-4">
@@ -315,36 +315,38 @@
       </div>
       <div class="row text-center mt-4">
           <div class="col-6">
-            <p class="">Product Photography</p>
+            <p class="font-size-prices">Product Photography</p>
           </div>
           <div class="col-6">
-            <p class="">80 euro / photo</p>
+            <p class="font-size-prices">80 euro / photo</p>
           </div>
       </div>
       <div class="row text-center mt-4">
           <div class="col-6">
-            <p class="">Sevice Photography</p>
+            <p class="font-size-prices">Sevice Photography</p>
           </div>
           <div class="col-6">
-            <p class="">80 euro / photo</p>
+            <p class="font-size-prices">80 euro / photo</p>
           </div>
       </div>
     </div>
+  </div>
   <!--/start of main contect sections-->
 <!--Footer-->
 <footer>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="d-none d-md-block col-md-6 map-container">
+      <div class="d-none d-md-block col-md-12 col-lg-6 map-container">
         <h5 class="map-h5 text-center mb-3"><i class="fas fa-map-marked-alt"></i> Location</h5>
         <div class="mapouter map-center">
-            <div class="gmap_canvas">
-                <iframe width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=stockholm&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">elegant themes lucid theme</a>
-            </div>
+          <div class="gmap_canvas">
+            <iframe width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=stockholm&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://www.enable-javascript.net/blog/divi-discount/">elegant themes lucid theme</a>
+          </div>
         </div>
         <p class="mt-3 text-center location-text">123 Strömgatan, Stockholm <br>Sweden</p>
       </div>
-      <div class="col-12 col-md-6 footer-social-container d-flex align-content-center flex-wrap">
+      <div class="col-12 col-md-12 col-lg-6 footer-social-container d-flex align-content-center flex-wrap">
         <div class="col-12 text-center">
           <a class="social-link" href="#"><i class="fab fa-facebook-f font-size-social"></i></a>
           <a class="social-link" href="#"><i class="fab fa-twitter font-size-social"></i></a>
@@ -352,7 +354,7 @@
           <a class="social-link" href="#"><i class="fab fa-instagram font-size-social"></i></a>
         </div>
         <div class="col-12 text-center mt-4">
-          <p><i class="far fa-envelope"></i> email: Manojlovic911@hotmail.com</p>
+          <p class="email-text"><i class="far fa-envelope"></i> email: Manojlovic911@hotmail.com</p>
         </div>
       </div>
     </div>
@@ -401,5 +403,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!--/script source files -->
-  </body>
+
+</body>
 </html>
