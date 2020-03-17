@@ -39,57 +39,49 @@ $(window).on('scroll', function(){
         }
       });
 
-/* Open */
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
+$(document).ready(function (){
 
-/* Close */
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
+  $('.navbar-toggler').on('click', function () {
+      $('.mobile-menu').toggleClass('open');
+  }
+);
+});
 
+$(document).ready(function (){
 
-window.addEventListener('load', () => {
-	function _(e) {
-		return document.getElementById(e);
-	}
-	
-	function submitForm(e) {
-		console.log(e);
-	}
-	
-	function testEmail(e) {
-		const value = e.target.value;
-		const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-		
-		if (!regex.test(value))
-			console.log('email is invalid');
-		else
-			console.log('email is valid');
-	}
-	
-	function testMobile(e) {
-		const value = e.target.value;
-		const regex = /^\+[0-9]?()[0-9](\s|\S)(\d[0-9]{9})$/gm;
-		
-		if (!regex.test(value))
-			console.log('mobile is invalid');
-		else
-			console.log('mobile is valid');
-	}
-	
-	function testText(e) {
-		const value = e.target.value;
-		
-		if (!value)
-			console.log('text is required');
-		else
-			console.log('text is ok');
-	}
-	
-	_('exampleInputEmail').addEventListener('input', testEmail);
-	_('exampleInputPassword').addEventListener('input', testPassword);
-	_('exampleInputMobile').addEventListener('input', testMobile);
-	_('exampleInputText').addEventListener('input', testText);
+  $('.navbar-toggler').on('click', function () {
+      $('.nav-link').toggleClass('text-black-mobile');
+  }
+);
+});
+
+let v1 = false;
+
+$(document).ready(function (){
+
+  $('.navbar-toggler').on('click', function () {
+      if (!v1)
+        $('.navbar-toggler-icon').toggleClass('navbar-toggler-icon2');
+  }
+);
+});
+
+$(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+            v1 = true;
+            $('.navbar-toggler-icon').addClass('navbar-toggler-icon2');
+        }
+        else 
+        {
+            v1 = false;
+            $('.navbar-toggler-icon').removeClass('navbar-toggler-icon2');
+        }
+      });
+
+$(document).ready(function (){
+
+  $('.navbar-toggler').on('click', function () {
+      $('body').toggleClass('overflow-toggler');
+  }
+);
 });
