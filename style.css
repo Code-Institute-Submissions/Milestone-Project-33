@@ -74,6 +74,7 @@ p {
   max-height: 10rem;
   transition: 0.5s;
 }
+
 /* Button on Hover */
 
 .btn--red:hover,
@@ -178,6 +179,20 @@ p {
 .gallery-start-bhp-container {
   height: 100vh;
   background: url("https://i.imgur.com/837c0it.jpg") no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-start-bhp-container {
+  height: 100vh;
+  background: url("https://i.imgur.com/08X5okY.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -571,6 +586,23 @@ nav div ul {
   box-shadow: 0.9rem 0.9rem 2rem rgba(74, 78, 105, 0.5);
 }
 
+            /* About Page */  
+
+.team-wrapper {
+  background: #fff;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.shadow-sharp {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15),   /* From https://www.cssscript.com/elegant-box-shadows/ */
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+}
+
+.team-about-row {width: 60vh; }
 
 /* Media Query */
 
