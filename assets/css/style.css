@@ -269,16 +269,15 @@ p {
 
 .white-bg-nav {
   background-color: rgb(255, 255, 255);
-  height: 100px;
-  padding: 10px 50px;
   box-shadow: 0 2px 9px 0 rgba(0,0,0,.21);
+  height: 90px;
   transition: .5s;
 }
 
 
 nav div ul {
   text-transform: uppercase;
-  font-size: 28px !important;
+  font-size: 28px;
   margin-right: 40px;
 }
 
@@ -291,9 +290,6 @@ nav div ul {
   max-height: 14rem;
 }
 
-.nav-link {
-  padding: 10px 50px 10px 50px;
-}
 
 /* Jumbotron */
 
@@ -810,8 +806,10 @@ nav div ul {
     }
 
   .brand-black {
-    max-height: 14rem;
-    max-width: 14rem;
+    height: auto;
+    width: 200px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -822,22 +820,9 @@ nav div ul {
   }
 }
 
-
-/* Hover Effect */
-
-.active {
-  background-color: rgb(221, 24, 24);
-  width: 175px;
-  text-align: center;
-  height: auto;
-  color: #fff !important;
-  transition: 0.5s;
+.about-wrapper-gray {
+  background: #5c5c5e;
 }
-
-#active-link-color {
-  color: white !important;
-}
-
 
 /* Typography */
 
