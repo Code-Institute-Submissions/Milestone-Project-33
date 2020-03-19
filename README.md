@@ -93,9 +93,6 @@ Also I wiil work on navigation bar design, to give more animation and make it ev
 - [Embeded Google Map](https://www.embedgooglemap.net/)
     - The project uses **Embeded Google Map** to create google map in footer of the website.
 
-- [Unsplash](https://unsplash.com/)
-    - The project uses **Unsplash** to get image content for the website.
-
 - [Imgur](https://imgur.com/)
     - The project uses **Imgur** for hosting image content for the website.
 
@@ -121,19 +118,7 @@ Also I wiil work on navigation bar design, to give more animation and make it ev
     3. Try to open the navigation menu by pressing the burger icon and try to scroll verify that it does not change the look.
 
 
-Website works good on all screen sizes.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+Website works well on small phones, tablets, and larger screen devices.
 
 ## Credits
 
@@ -141,8 +126,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
-
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com/)
+    
 ### Acknowledgements
 
 - I received inspiration for this project from X
