@@ -21,27 +21,86 @@ Wireframe links:
 - Home Page Wireframe (https://i.imgur.com/an7V2D2.jpg)
 - Gallery Page Wireframe  part1-(https://i.imgur.com/ObqrHMz.jpg) part2-(https://i.imgur.com/RqtOFmz.jpg)
 - About Page Wireframe  part1-(https://i.imgur.com/Hg7Hmdo.jpg) part2-(https://i.imgur.com/omGWMXZ.jpg)
-## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+## Features
+ 
+1. Photographer's Logo.
+2. Hero image with parallax effect.
+3. Call-to-action.
+4. Reviews and testimonials.
+5. Important business information.
+6. Contact form.
+7. Contrasting colors.
+8. Quality content.
+9. Main features of photographers service.
+10. Links to social media accounts.
+11. Responsive Navigation- navigation should be transparent when page is open, once user starts scrolling it should stick to the top and receive background color.
+12. Responsive Phone Navigation menu. 
+13. Location with map. 
+14. Gallery Page with sections for different type of photos. 
+15. About page with information about photographer and his team of workers. 
+
+
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- Feature 1 focuses on branding his name as a photographer in the photography industry. 
+ 
+- Feature 2 gives a website professional look, using parallax effect that makes the design a bit more modern.  
+ 
+- Feature 3 gives the user an idea of what the website is about and tells the user what I would like him to do.
+ 
+- Feature 4 builds trust with the customer who is visiting the website.
+ 
+- Feature 5 provides information about what the service offers and provides information about the business it self
+ 
+- Feature 6 contact form lets users get in touch with photographer about any questions they might have.
+ 
+- Feature 7 having contrasting colors will make the website more pleasing to the eye and give it an overall professional look. 
+ 
+- Feature 8 having the most important content on website will prevent from overcrowding the user with unnecessary information.
+ 
+- Feature 9 tells the user of what he offers. 
+ 
+- Feature 10 gives users more means to find out more about the photographer and his work by following him on social media platforms.
+ 
+- Feature 11  creating responsive navigation using js and css. js code can be found in "javascript.js" file. 
+ 
+- Feature 12 creating responsive navigation using js and css. js code can be found in "javascript.js" file. 
+ 
+- Feature 13 using map to provide service location using (https://www.embedgooglemap.net/).
+ 
+- Fature 14 gallery created using  (http://fancyapps.com/fancybox/3/).
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Feature 15 About page that contains all of the information about the photographer and his team. 
 
 ### Features Left to Implement
-- Another feature idea
+- For future features I plan to upgrade the hero image background. 
+I will put a single background, and 3 png cropped images of the photographer and some other items.
+I will add parallax effect making them appear and disappear as the user scrolls down and up the page content. 
+This can be achieved by playing with gradient and content background colors. 
+Also I wiil work on navigation bar design, to give more animation and make it even more responsive and modern.
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [Bootstrap 4](https://getbootstrap.com/)
+    - The project uses **Bootstrap4** to build responsive website.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Fancy Box](http://fancyapps.com/fancybox/3)
+    - The project uses **fancybox** to create picture gallery.
+
+- [Embeded Google Map](https://www.embedgooglemap.net/)
+    - The project uses **Embeded Google Map** to create google map in footer of the website.
+
+- [Unsplash](https://unsplash.com/)
+    - The project uses **Unsplash** to get image content for the website.
+
+- [Imgur](https://imgur.com/)
+    - The project uses **Imgur** for hosting image content for the website.
+
+
+
 
 
 ## Testing
