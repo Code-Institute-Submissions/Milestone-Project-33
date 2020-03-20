@@ -19,23 +19,11 @@ p {
     font-weight: bold;
     border-radius: 50px;
     width: 220px;
-    padding: 13px;
     font-size: 23px;
-    color: #0f0f0f;
 }
 
 .btn-jmb {
   margin-top: 40px;
-}
-
-.btn--gallery {
-  border-radius: 50px;
-  padding: 11px;
-  font-size: 23px;
-  font-weight: bold;
-  margin-top: 45px;
-  width: 300px;
-  color: #0f0f0f;
 }
 
 .btn--cta {
@@ -55,14 +43,20 @@ p {
 }
 
 .btn--red {
-    background-color: rgb(221, 24, 24);
-    border-color: rgb(221, 24, 24);
     color: white;
 }
 
 .btn--blue {
     background-color: rgb(70, 132, 190);
     border-color: rgb(70, 132, 190);
+}
+
+.hero-link {
+  font-size: 23px;
+  color: white;
+  font-family: Oswald;
+  width: 200px;
+  border-radius: 70px;
 }
 
 .a-color {
@@ -628,11 +622,6 @@ nav div ul {
 
 @media (max-width:355px) {
 
-  .btn--cta {
-    width: 90%;
-    transition: 0.5s;
-  }
-
   .footer-social-container {
   padding: 30px;
   }
@@ -657,11 +646,6 @@ nav div ul {
   .footer-social-container {
     padding: 40px;
   }
-
-  .btn--cta { 
-    width: 80%;
-    transition: 0.5s;
-  }
 }
 
 @media (min-width: 370px) {
@@ -681,11 +665,6 @@ nav div ul {
   margin-bottom: 40px;
   transition: 0.5s;
   }
-
-.btn--cta { 
-  width: 75%;
-  transition: 0.5s;
-  }
 }
 
 @media (max-width: 583px){
@@ -697,14 +676,10 @@ nav div ul {
   font-size: 2.5rem;
   transition: 0.5s;
   }
+
 }
 
 @media (min-width: 745px){
-
-.btn--cta {
-    width: 55%;
-    transition: 0.5s;
-  }
 
 .jumbotron-header {
   color: white;
@@ -785,11 +760,6 @@ nav div ul {
 @media (min-width:768px) {
 
 
-  .btn--cta {
-    width: 55%;
-    transition: 0.5s;
-  }
-
   .text-black-nav {
     color: #212529 !important;
   }
@@ -800,11 +770,6 @@ nav div ul {
     align-items: flex-end;
   }
 
-  .btn--cta {
-    width: 45%;
-    transition: 0.5s;
-    }
-
   .brand-black {
     height: auto;
     width: 200px;
@@ -813,9 +778,9 @@ nav div ul {
   }
 }
 
-@media (min-width: 1300px) {
-  .btn--cta {
-    width: 25%;
+@media (min-width: 1150px) {
+  .hero-link {
+    width: 20%;
     transition: 0.5s;
   }
 }
@@ -839,13 +804,18 @@ h1 {
 }
 
 h2 {
-  font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300))) !important;
+  font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300))) !important;  /* https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/ */
 }
 
 h3 {
-  font-size: calc(26px + (40 - 25) * ((100vw - 300px) / (1600 - 300))) !important;
+  font-size: calc(26px + (40 - 25) * ((100vw - 300px) / (1600 - 300))) !important;  
 }
 
 h4 {
   font-size: calc(23px + (30 - 23) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+.email-text {
+  font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
+  color: black;
 }
