@@ -130,11 +130,11 @@ Website works well on small phones, tablets, and larger screen devices.
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All of the photos are taken from [Unsplash](https://unsplash.com/).
 
 ### Media
-- The photos used in this site were obtained from [Unsplash](https://unsplash.com/)
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com/), [Flaticon](https://www.flaticon.com/home).
     
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Code Institute and my mentor Rahul. 
