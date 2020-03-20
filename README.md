@@ -96,8 +96,15 @@ Also I wiil work on navigation bar design, to give more animation and make it ev
 - [Imgur](https://imgur.com/)
     - The project uses **Imgur** for hosting image content for the website.
 
-- [Imgur](https://code.jquery.com/jquery-3.4.1.js)
+- [jquery](https://code.jquery.com/jquery-3.4.1.js)
     - The project uses **jquery** in order to use "fancybox" gallery for the website images.
+
+- [Fontawesome](https://fontawesome.com/)
+    - The project uses **Fontawesome** in order to use icons for the website.
+
+- [Fonts Google](https://fonts.google.com/)
+    - The project uses **Google Fonts** for changing the font family.
+    
 
 ## Testing
 
