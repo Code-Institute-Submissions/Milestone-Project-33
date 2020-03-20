@@ -129,7 +129,7 @@ Also I wiil work on navigation bar design, to give more animation and make it ev
 
 - CSS code has passed jigsaw Validator.
 
-
+- HTML has passed validation, only change and error that I will fix in near future was using an old obsolete element "iframe".
 
 ## Credits
 
