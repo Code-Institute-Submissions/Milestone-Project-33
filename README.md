@@ -142,3 +142,5 @@ Also I wiil work on navigation bar design, to give more animation and make it ev
 ### Acknowledgements
 
 - I received inspiration for this project from Code Institute and my mentor Rahul. 
+
+- Also I have read this material text after which I wrote some of the text content about photography that is featured on this website. Here are the links [Study](https://study.com/academy/lesson/portrait-photography-definition-techniques-tips.html), and [Wikipedia](https://en.wikipedia.org/wiki/Event_photography).
