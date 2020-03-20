@@ -432,6 +432,11 @@ nav div ul {
   color: #212529;
 }
 
+.about-img-homepage {
+    height: auto;
+    width: 100%;
+}
+
 /* Contact Form */
 
 .form-h3-hr-container {
@@ -541,6 +546,16 @@ nav div ul {
               0 4px 4px rgba(0,0,0,0.15),   /* From https://www.cssscript.com/elegant-box-shadows/ */
               0 8px 8px rgba(0,0,0,0.10),
               0 16px 16px rgba(0,0,0,0.05);
+}
+
+.about-studi-img-size {
+    height: auto;
+    width: 100%;
+}
+
+.about-team-img-size {
+    height: auto;
+    width: 100%;
 }
 
 /* Media Query */

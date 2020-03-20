@@ -125,7 +125,11 @@ Also I wiil work on navigation bar design, to give more animation and make it ev
     3. Try to open the navigation menu by pressing the burger icon and try to scroll verify that it does not change the look.
 
 
-Website works well on small phones, tablets, and larger screen devices.
+- Website works well on small phones, tablets, and larger screen devices. 
+
+- CSS code has passed jigsaw Validator.
+
+
 
 ## Credits
 
