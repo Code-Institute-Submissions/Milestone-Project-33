@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap');
 
+/* General */
+
 body {
   font-family: Oswald;
   font-size:62.5%;
@@ -15,76 +17,24 @@ p {
 
 /* Buttons */
 
-.btn--nav {
+.btn-nav {
     font-weight: bold;
     border-radius: 50px;
     width: 220px;
     font-size: 23px;
 }
 
-.btn-jmb {
-  margin-top: 40px;
-}
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 50px;
-    width: 300px;
-    padding: 13px;
-    font-size: 23px;
-    margin-top: 10px;
-    font-family: Oswald;
-    color: #0f0f0f;
-}
-
 .btn-offer {
   padding: 5px 30px;
-  font-size: 24px;
-}
-
-.btn--red {
-    color: white;
-}
-
-.btn--blue {
-    background-color: rgb(70, 132, 190);
-    border-color: rgb(70, 132, 190);
+  font-size: 23px;
 }
 
 .hero-link {
   font-size: 23px;
   color: white;
-  font-family: Oswald;
+  font-family: Oswald;    /* Gallery link/button on Homepage */
   width: 200px;
   border-radius: 70px;
-}
-
-.a-color {
-  color: black;
-}
-
-.brand-black {
-  max-width: 10rem;
-  max-height: 10rem;
-  transition: 0.5s;
-}
-
-/* Button on Hover */
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: rgb(168, 55, 55);
-    border-color: rgb(168, 55, 55);
-    color: white;
-}
-
-
-.btn--blue:hover {
-  background-color: rgb(47, 97, 144);
-  border-color: rgb(47, 97, 144);
-  color: white;
 }
 
 /* Block Dividers*/
@@ -96,7 +46,7 @@ p {
   background-color: rgb(221, 107, 0);
 }
 
-.block-divider--short {
+.block-divider-short {
   width: 60px;
 }
 
@@ -109,13 +59,8 @@ p {
 
 /* Containers */
 
-.container-wrapper--gray {
+.container-wrapper-gray-bg {
   background-color: #5c5c5e;
-  color: white;
-}
-
-.container-wrapper--darkgreen2 {
-  background-color: rgb(37, 87, 62);
   color: white;
 }
 
@@ -124,63 +69,84 @@ p {
   border-radius: 20px;
   border: none;
   padding-top: 10px;
-  box-shadow: 0.9rem 0.8rem 2rem rgba(74, 78, 105, 0.5);
+  -webkit-box-shadow: 0.9rem 0.8rem 2rem rgba(74, 78, 105, 0.5);
+          box-shadow: 0.9rem 0.8rem 2rem rgba(74, 78, 105, 0.5);
   height: 100%;
 }
 
-.callout-container {
+.callout-container-img-bg {
   height: 100vh;
-  background: url("https://i.imgur.com/52YkMkz.jpg") no-repeat center top fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("https://i.imgur.com/52YkMkz.jpg") no-repeat center top fixed;
   background-size: cover;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 
-.parallaximg-gal-br {
-  height: 25vh;
-  background: url("https://i.imgur.com/EpwYZ4A.jpg") no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.parallaximg-home-br {
+.home-brake-bg-parallax-img {
   height: 30vh;
   background: url("https://i.imgur.com/0l3i2fZ.jpg") no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 
-.gallery-start-bhp-container {
+.gallery-container-img-bg {
   height: 100vh;
   background: url("https://i.imgur.com/837c0it.jpg") no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.gallery-brake-bg-parallax-img {
+  height: 25vh;
+  background: url("https://i.imgur.com/EpwYZ4A.jpg") no-repeat top center fixed; 
+  background-size: cover;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 
@@ -284,7 +250,13 @@ nav div ul {
   max-height: 14rem;
 }
 
-
+.brand-black {
+  max-width: 10rem;
+  max-height: 10rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
 /* Jumbotron */
 
 .jumbotron {
